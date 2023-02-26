@@ -1,12 +1,26 @@
+.container, html, body {
+    height: 1fr;
+    margin: 0;
+}
+
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    background-color: #ccc;
 }
+
 div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.container {
+    background-color: #8f8f8f;
+    justify-content: flex-start;
+    margin: 5px 0 10px 0;
+    padding: 1% 1% 1% 1%;
+    border-radius: 25px;
 }
